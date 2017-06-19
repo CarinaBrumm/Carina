@@ -18,6 +18,17 @@ h1{
   text-align: center;
   font-size: 35px;
 }
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #102d69;
+}
+#link {
+  color: white;
+}
+#link:hover {
+  color: #ec6608;
+}
 .navbar {
   margin-bottom: 0;
   background-color: #102d69!important;
@@ -36,6 +47,7 @@ h1{
 }
 .container-fluid {
   padding: 60px 20px;
+  position: relative;
 }
 #bild {
   width: 200px;
@@ -54,17 +66,21 @@ h1{
 }
 #nach {
   color: #fff;
+  padding-left: 50px;
   }
-  #nah {
+#nah {
     width: 400px;
     height: 300px;
     padding: 20px;
     float: right;
-  }
+}
   .erster {
     position: absolute;
     bottom: 5px;
     right: 5px;
+  }
+  .zweiter {
+    position: absolute;
   }
 .col-sm-4 {
   color: black;
